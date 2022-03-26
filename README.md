@@ -1,2 +1,2 @@
-# xp42-dindin
+# dindin
 Projeto Hands-on
