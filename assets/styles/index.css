@@ -1,3 +1,313 @@
-main {
-    padding-top: 250px;
+main .container { padding: 0; margin: auto; }
+
+
+
+/* SECTION1  */
+.section1 {
+    margin: 0 auto;
+    padding: 242px 0 201px 0;
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+}
+.section1 .section1-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68.94px;
+    color: #FF4081;
+    width: 488px;
+    margin-bottom: 20px;
+}
+.section1 .section1-text p {
+    width: 462px;
+    margin-bottom: 38px;
+}
+.section1 .section1-text p,
+.section1 .section1-text a {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31.02px;
+}
+.section1 .section1-text a {
+    display: inline-block;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 8.5px 26px;
+}
+.section1 .section1-text a:hover {
+    background-color: #FF4081;
+    color: #Fff;
+}
+.section1 .section1-img {
+    width: 501px;
+    height: 511px;
+    background: url('/assets/images/dindin-imagens/ilustra-banner.png');
+}
+
+
+/* SECTION2  */
+.section2 {
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 109px 0 119px 0;
+    text-align: center; 
+}
+.section2 div {
+    width: 350px;
+}
+.section2 div img {
+    height: 270px;
+    width: auto;
+    margin-bottom: 44px;
+}
+.section2 div h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    margin-bottom: 23px;
+}
+.section2 div p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 19.53px;
+    text-align: center;
+    width: 293px;
+    display: block;
+    margin: 0 auto 26px;
+}
+.section2 div a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 50px;
+    background-color: #FF4081;
+    border-radius: 62px;
+    transition: transform 0.2s ease;
+}
+.section2 div a:hover {
+    transform: translateY(-3px);
+}
+
+
+/* SECTION3  */
+.section3 {
+    margin: 0 auto;
+    padding: 119px 0 155px 0;
+    font-family: Nunito, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
+.section3 .item {
+    display: flex;
+    gap: 28px;
+}
+.section3 h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+    /* margin-bottom: 78px; */
+    width: 100%;
+}
+.section3 .item img {
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+}
+.section3 .item p {
+    width: 369px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24.55px;
+}
+.section3 .item span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* SECTION4 */
+.section4 {
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    padding: 91px 9% 51px;
+}
+.section4 h3 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    margin-bottom: 73px;
+}
+.section4 .box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.section4 .box > div {
+    width: 319px;
+}
+.section4 .box > div div {
+    width: 319px;
+    height: 193px;
+    background-color: #C4C4C4;
+    margin-bottom: 13px;
+}
+.section4 .box > div h4 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #009688;
+}
+.section4 .box > div p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.section4 .botao {
+    display: block;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 11px 0px;
+    width: 289px;
+    margin: 110px auto 0;
+    text-align: center;
+}
+.section4 .botao:hover {
+    background-color: #FF4081;
+    color: #fff;
+}
+
+
+.padding {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+@media screen and (max-width: 1284px) {
+    .section1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 120px 20px;
+    }
+    .section1 .section1-text {
+        align-self: center;
+    }
+    .section1 .section1-text h1,
+    .section1 .section1-text p {
+        width: auto;
+        text-align: center;
+    }
+    .section1 .section1-text a {
+        display: inline-block;
+        color: #FF4081;
+        border: 2px solid #FF4081;
+        border-radius: 62px;
+        padding: 8.5px 26px;
+    }
+    .section1 .section1-text a {
+        display: block;
+        padding: 8.5px 0;
+        text-align: center;
+        width: 270px;
+        margin: auto;
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        padding: 109px 20px 119px 20px;
+        text-align: center; 
+    }
+    .section2 div,
+    .section2 div p {
+        width: auto;
+    }
+    .section3 {
+        padding: 119px 20px 155px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .section3 h2 {
+        width: auto;
+        text-align: center;
+    }
+    .section3 .item {
+        display: flex;
+        gap: 28px;
+    }
+}
+@media screen and (max-width: 1225px) {
+    .section4 {
+        margin: 0 auto;
+        background-color: #F6F6F6;
+        padding: 91px 0 51px;
+        text-align: center;
+    }
+    .section4 .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    .section4 .botao {
+        margin: 90px auto 0;
+    }
+}
+@media screen and (max-width: 545px) {
+    /* section1  */
+    .section1 .section1-img {
+        width: 90vw;
+        height: calc(90vw / 0.98);
+        background-size: cover;
+    }
+    .section1 .section1-text h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    /* section2  */
+    /* section3  */
+    .section3 .item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 28px;
+    }
+    .section3 .item > div p {
+        width: auto;
+    }
+    /* section 4 */
+    .section4 {
+        padding: 91px 20px 51px;
+    }
+    .section4 .box > div {
+        width: 100%;
+        max-width: 319px;
+    }
+    .section4 .box > div div {
+        width: 100%;
+        max-width: 319px;
+        height: 193px;
+        background-color: #C4C4C4;
+        margin-bottom: 13px;
+    }
+    .section4 .botao {
+        width: 90%;
+        max-width: 289px;
+        font-size: 20px;
+    }
 }

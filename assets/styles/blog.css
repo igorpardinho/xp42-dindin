@@ -1,0 +1,127 @@
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section1 {
+    display: flex;
+    padding: 48px 0 89px;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .text {
+    margin-right: 74px;
+}
+.section1 .text h1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    margin-bottom: 42px;
+    max-width: 512px;
+}
+.section1 .text p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    max-width: 461px;
+}
+.section1 .img {
+    width: 405px;
+    height: 405px;
+    background: url(../images/dindin-imagens/ilustra-blog.png);
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    padding: 109px 20px 170px;
+}
+
+.section2 .item {
+    max-width: 518px;
+    margin-bottom: 100px;
+}
+.section2 .item:nth-child(odd) {
+    margin-right: 120px;
+}
+.section2 .item div {
+    max-width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+    margin-bottom: 19px;
+}
+.section2 .item h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    margin-bottom: 19px;
+}
+.section2 .item p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .section2 .item:nth-child(odd) {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .section1 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .section1 .text {
+        margin-right: 0px;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F7F7;
+        padding: 109px 20px 170px;
+        text-align: center;
+    }
+    .section2 .item:nth-child(odd) {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .section1 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section1 .img {
+        margin-bottom: 25px;
+    }
+    .section1 .text {
+        text-align: center;
+    }
+    .section1 .text h1 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .section1 .text p {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 470px) {
+    .section1 .img {
+        width: 83vw;
+        height: 83vw;
+        background-size: cover;
+    }
+    .section2 {
+        padding-bottom: 40px;
+    }
+}

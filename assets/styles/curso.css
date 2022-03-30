@@ -1,0 +1,168 @@
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section1 {
+    padding: 80px 196px 81px;
+    display: flex;
+    /* justify-content: center; */
+}
+.section1 .text {
+    margin-top: 13px;
+    margin-right: 37px;
+}
+.section1 .text h1 {
+    max-width: 512px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    margin-bottom: 25px;
+}
+.section1 .text p {
+    max-width: 461px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.section1 .img {
+    width: 380px;
+    height: 381px;
+    background: url('../images/ilustra-poupando.png');
+    background-size: cover;
+}
+
+.section2 {
+    background-color: #F6F6F6;
+    padding: 75px 130px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 .item {
+    display: flex;
+    margin: 75px 0;
+    align-items: center;
+}
+.section2 .item .img {
+    margin-right: 75px;
+    width: 462px;
+    height: 261px;
+    border: 3px solid #8E8E8E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.section2 .item .img div {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000000;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .item .img div img {
+    padding-left: 10px;
+}
+.section2 .item .text h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+.section2 .item .text p {
+    max-width: 501px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+hr {
+    background-color: #C4C4C4;
+    color: #C4C4C4;
+    width: 100%;
+    height: 3px;
+    border: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .section1 {
+        padding: 80px 30px 81px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    .section1 .text {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 939px) {
+    .section2 {
+        padding: 75px 50px ;
+    }
+}
+@media screen and (max-width: 840px) {
+    .section1 {
+        flex-direction: column-reverse;
+        
+    }
+    .section1 .text {
+        margin-top: 25px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .section1 .text h1,
+    .section1 .text p {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 766px) {
+    .section2 .item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .section2 .item .img {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .section2 .item h2 {
+        margin-bottom: 20px;
+    }
+    .section2 .item .text p {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 570px) {
+    .section1 {
+        padding: 80px 25px 81px;
+    }
+    .section2 {
+        padding: 75px 25px ;
+    }
+    .section2 .item .img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .section1 .box-img .img {
+        width: 85vw;
+        height: 85vw;
+    }
+    .section1 .text h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .section1 .box-img .img {
+        width: 82vw;
+        height: 82vw;
+    }
+}
