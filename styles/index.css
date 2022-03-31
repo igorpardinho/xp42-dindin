@@ -2,7 +2,6 @@ main .container { padding: 0; margin: auto; }
 
 
 
-/* SECTION1  */
 .section1 {
     margin: 0 auto;
     padding: 242px 0 201px 0;
@@ -42,11 +41,10 @@ main .container { padding: 0; margin: auto; }
 .section1 .section1-img {
     width: 501px;
     height: 511px;
-    background: url('images/ilustra-banner.png');
+    background: url("/images/ilustra-banner.png");
 }
 
 
-/* SECTION2  */
 .section2 {
     margin: 0 auto;
     background-color: #F6F6F6;
@@ -94,7 +92,7 @@ main .container { padding: 0; margin: auto; }
 }
 
 
-/* SECTION3  */
+
 .section3 {
     margin: 0 auto;
     padding: 119px 0 155px 0;
@@ -134,7 +132,7 @@ main .container { padding: 0; margin: auto; }
 }
 
 
-/* SECTION4 */
+
 .section4 {
     margin: 0 auto;
     background-color: #F6F6F6;
