@@ -36,7 +36,7 @@ header .container h2 a {
     color: transparent;
     height: 100%;
     width: 100%;
-    background: url(../images/dindin-imagens/logo-header.png);
+    background: url(../images/logo-header.png);
 }
 header .container nav ul {
     display: flex;
@@ -76,7 +76,7 @@ footer .container h2 a {
     color: transparent;
     height: 100%;
     width: 100%;
-    background: url(../images/dindin-imagens/logo-footer.png);
+    background: url(../images/logo-footer.png);
 }
 footer .container ul li,
 footer .container ul li a,
