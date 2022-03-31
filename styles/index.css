@@ -42,7 +42,7 @@ main .container { padding: 0; margin: auto; }
 .section1 .section1-img {
     width: 501px;
     height: 511px;
-    background: url('/images/ilustra-banner.png');
+    background: url('images/ilustra-banner.png');
 }
 
 
