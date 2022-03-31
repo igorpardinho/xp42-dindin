@@ -1,2 +1,2 @@
 # dindin
-Projeto Hands-on
+Projeto Hands-on Gama Academy
